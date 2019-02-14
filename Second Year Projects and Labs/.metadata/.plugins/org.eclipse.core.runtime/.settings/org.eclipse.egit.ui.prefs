@@ -1,0 +1,8 @@
+BranchProjectTracker__C\:\\Users\\Akin\\git\\ExMech\\.git_AkinLinkedList=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="AkinLinkedList">\r\n<project>\\Enamel</project>\r\n</projects>
+BranchProjectTracker__C\:\\Users\\Akin\\git\\ExMech\\.git_conflictTest_Akin=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="conflictTest_Akin">\r\n<project>\\Enamel</project>\r\n</projects>
+BranchProjectTracker__C\:\\Users\\Akin\\git\\ExMech\\.git_demo=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="demo">\r\n<project>\\Enamel</project>\r\n</projects>
+BranchProjectTracker__C\:\\Users\\Akin\\git\\ExMech\\.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="master">\r\n<project>\\Enamel</project>\r\n</projects>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>changed shortcuts for most frequently used buttons to &quot;Ctrl + * first&\#x0A;letter of general button function*&quot; . E.g sound (or import sound) is&\#x0A;Ctrl +I</message>\r\n<message>Beep.wav for Soundrecorder class. updates to Sound Recorder&\#x0A;&\#x0A;View&\#x0A;</message>\r\n<message>update</message>\r\n<message>to support new classes&\#x0A;</message>\r\n<message>Only pushing so i do not lose my current progress. some&\#x0A;&\#x0A;implementation, but not fully functional just yet</message>\r\n<message>SoundRecorder and SoundRecorderTest</message>\r\n<message>test</message>\r\n<message>visual player</message>\r\n<message>i mean, i added it, but does it work? nope&\#x0A;</message>\r\n<message>To be changed entirely post midterm submission&\#x0A;</message>\r\n</messages>
+eclipse.preferences.version=1
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

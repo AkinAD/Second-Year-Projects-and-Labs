@@ -1,0 +1,19 @@
+There are two cell number object created. One  CellNumber object is created by the client , and the  other is created by the constructor because cellphone is a composition of CellNumber
+
+C.  List<CellNumber>  CN =  new ArrayList<CellNumber>();
+	for  ( CellNumber C : callLog)
+	{
+		CN.add(new CellNumber(c))
+	}
+	return CN;
+	
+	D. 		new calls get added to the end of the list
+	
+			Modifying the returned list has no effect on the CellPhone because it is a new list. it is impossible to to modify the CEllNumbers in the class because CellNumber is immutable . 
+			Since the CallLog cannot be modified and neither can the CellNumbers, a shallow copy is enough to keep the invariants true
+			
+	E. 		if x.compareTo(y) == 0 then x.equals(Y) == true;
+			if x.equals(y) == true then x.compareTo(Y) == 0;
+			
+		b. because both CompareTo and equals use the same fielss to perform the comparison
+		

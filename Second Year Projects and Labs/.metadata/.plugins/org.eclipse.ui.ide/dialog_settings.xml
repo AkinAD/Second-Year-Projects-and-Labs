@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\Akin\Akin-PC\SwingSoundRecorder.zip"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="D:\Akin\Akin-PC\lab7.zip"/>
+			<item value="D:\Akin\Akin-PC\EECS2030_F2017_Lab6.zip"/>
+			<item value="D:\Akin\Akin-PC\test3D.zip"/>
+			<item value="D:\Akin\Akin-PC\test3B.zip"/>
+			<item value="D:\Akin\Akin-PC\lab4.zip"/>
+			<item value="D:\Akin\Akin-PC\EECS2030_F17_Lab_2.zip"/>
+			<item value="D:\Akin\Akin-PC\EECS2030_F17_Lab_2_Example.zip"/>
+			<item value="D:\Akin\Akin-PC\lab1_project.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+</section>

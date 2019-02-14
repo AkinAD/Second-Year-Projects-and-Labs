@@ -1,0 +1,75 @@
+package week3InfoHide;
+
+public class Point2 implements Comparable<Point2>{
+	
+	private	double	x;
+	private	double y;
+	//for information hiding 
+	private double cood[];
+	
+	public Point2() 
+	{
+		this(0.0, 0.0);
+	}
+
+	public Point2(double newX, double newY) {
+		this.set(newX, newY);
+		//below is if information hiding were to be used
+		this.cood = new double[2];
+		this.cood[0] = newX;
+		this.cood[1] = newY;
+			}
+	public Point2(Point2 other)
+	{
+		this(other.x, other.y);
+	}
+	public double getX()		//ACcessor for X returns value of X
+	{
+		return this.x;
+		// info hiding method below
+		//return this.cood[0];
+	}
+	public double getY() 		//ACcessor for Y returns value of Y
+	{
+		return this.y;
+		// info hiding method below
+		//return this.cood[1];
+	}
+	public void setX(double newX)	//Mutator for X . allows you change the value of x from outside the class
+	{
+	this.x = newX;
+	//info Hiding method below
+	this.cood[0] =  newX;
+	}
+	public void setY(double newY)	//Mutator for Y . allows you change the value of Y from outside the class
+	{
+	this.y = newY;
+	//info Hiding method below
+	this.cood[1] = newY;
+	}
+	public void set(double newX, double newY)
+	{
+		this.x = newX;
+		this.y = newY;
+		//info Hiding method below
+		this.cood[0] = newX;
+		this.cood[1] = newY;
+	}
+	
+@Override
+public int compareTo(Point2 other)
+{
+	double thisDist = Math.hypot(this.x, this.y);
+	double otherDist = Math.hypot(other.x, other.y);
+	
+//	if (thisDist > otherDist)
+//	{return 1;
+//	}
+//	else if (thisDist < otherDist)
+//	{
+//		return -1;
+//	}
+//	return 0;
+return Double.compare(thisDist, otherDist);
+}
+}

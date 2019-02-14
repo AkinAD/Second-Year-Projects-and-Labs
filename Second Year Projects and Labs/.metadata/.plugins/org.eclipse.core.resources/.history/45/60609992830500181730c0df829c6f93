@@ -1,0 +1,22 @@
+package enamel;
+import java.awt.EventQueue;
+import javax.swing.JFrame;
+
+public class TreeTraverser extends JFrame {
+	public TreeTraverser() {
+		initUI();
+	}
+	private void initUI() {
+		setTitle("Tree Traverser");
+		setSize(300,200);
+		setLocationRelativeTo(null); // change this if necessary when other things are added
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+	
+	public static void main(String[] args) {
+		EventQueue.invokeLater(() -> {
+			TreeTraverser prog = new TreeTraverser();
+			prog.setVisible(true);
+		});
+	}
+}

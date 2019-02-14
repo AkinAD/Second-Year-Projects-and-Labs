@@ -1,0 +1,5 @@
+how to probe the method is correct first prove the base cases are correct, explain why they are correct, 
+Next, prove that the recursive invocation has a smaller suze than the original
+
+How to prove a method terminates, first define the size of the problem
+second, prove that the size of the problem reduces after every recursive call
